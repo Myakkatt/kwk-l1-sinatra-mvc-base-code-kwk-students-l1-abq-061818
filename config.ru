@@ -1,5 +1,6 @@
-require 'sinatra'
-require './application_controller.rb'
+require 'bundler'
+Bundler.require
+require './app.rb'
 
-run MyApp
+run IdeaBoxApp
 
